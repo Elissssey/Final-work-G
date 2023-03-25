@@ -20,4 +20,12 @@ class Program
                 count++;
             }
         }
-        
+
+         // Вывод результата в консоль
+        Console.WriteLine("Строки длиной до 3 символов:");
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine(output[i]);
+        }
+    }
+}
